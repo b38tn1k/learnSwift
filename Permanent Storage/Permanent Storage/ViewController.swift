@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         
         // I commented this out and when the app loads it still works!!!!!! VVVV
-//        NSUserDefaults.standardUserDefaults().setObject("James", forKey: "name")
+        NSUserDefaults.standardUserDefaults().setObject("James", forKey: "name")
         
         let username = NSUserDefaults.standardUserDefaults().objectForKey("name")! as! String
         print(username)
