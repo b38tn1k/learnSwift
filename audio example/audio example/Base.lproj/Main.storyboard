@@ -18,6 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCD-bu-Pug">
+                                <rect key="frame" x="285" y="225" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="d7h-3E-Bgr"/>
+                                    <constraint firstAttribute="height" constant="30" id="wXV-sI-aBf"/>
+                                </constraints>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbB-L5-CFk"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oR2-SX-kCP">
                                 <rect key="frame" x="279" y="345" width="42" height="30"/>
                                 <constraints>
@@ -35,35 +46,37 @@
                                     <action selector="volume:" destination="BYZ-38-t0r" eventType="valueChanged" id="yQo-ST-tjX"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCD-bu-Pug">
-                                <rect key="frame" x="285" y="225" width="30" height="30"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zfq-eS-xU0">
+                                <rect key="frame" x="18" y="405" width="564" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="d7h-3E-Bgr"/>
-                                    <constraint firstAttribute="height" constant="30" id="wXV-sI-aBf"/>
+                                    <constraint firstAttribute="height" constant="30" id="gki-rd-M7s"/>
                                 </constraints>
-                                <state key="normal" title="Play"/>
                                 <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbB-L5-CFk"/>
+                                    <action selector="scrub:" destination="BYZ-38-t0r" eventType="valueChanged" id="yIf-Qp-vR7"/>
                                 </connections>
-                            </button>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oR2-SX-kCP" firstAttribute="top" secondItem="lZx-NO-eiT" secondAttribute="bottom" constant="30" id="0DJ-xl-8wu"/>
                             <constraint firstItem="lZx-NO-eiT" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="0E6-sS-UNe"/>
+                            <constraint firstItem="Zfq-eS-xU0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1XR-kT-mwl"/>
                             <constraint firstItem="lZx-NO-eiT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3je-JD-m5b"/>
                             <constraint firstItem="lZx-NO-eiT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Tu-i9-AVK"/>
                             <constraint firstItem="lZx-NO-eiT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8JZ-FI-Kzl"/>
                             <constraint firstItem="lZx-NO-eiT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9FG-nk-Gtf"/>
                             <constraint firstItem="lZx-NO-eiT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AvU-86-Vgm"/>
                             <constraint firstItem="oR2-SX-kCP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CgE-qO-7ow"/>
+                            <constraint firstItem="Zfq-eS-xU0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XIQ-ie-FU4"/>
                             <constraint firstItem="bCD-bu-Pug" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gfR-Zo-Xro"/>
                             <constraint firstItem="lZx-NO-eiT" firstAttribute="top" secondItem="bCD-bu-Pug" secondAttribute="bottom" constant="30" id="owX-bb-1mG"/>
+                            <constraint firstItem="Zfq-eS-xU0" firstAttribute="top" secondItem="oR2-SX-kCP" secondAttribute="bottom" constant="30" id="upv-OU-pan"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="pauseButton" destination="oR2-SX-kCP" id="4MC-h4-HPz"/>
                         <outlet property="playButton" destination="bCD-bu-Pug" id="d5J-1u-FeB"/>
+                        <outlet property="scrubSlider" destination="Zfq-eS-xU0" id="lpc-4F-PJO"/>
                         <outlet property="volumeSlider" destination="lZx-NO-eiT" id="fy8-tj-Jpz"/>
                     </connections>
                 </viewController>

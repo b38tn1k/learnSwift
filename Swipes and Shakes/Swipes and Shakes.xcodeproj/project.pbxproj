@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E1009A31C5D4F390086F09C /* test1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E10099D1C5D4F390086F09C /* test1.wav */; };
+		7E1009A41C5D4F390086F09C /* test2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E10099E1C5D4F390086F09C /* test2.wav */; };
+		7E1009A51C5D4F390086F09C /* test3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E10099F1C5D4F390086F09C /* test3.wav */; };
+		7E1009A61C5D4F390086F09C /* test4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009A01C5D4F390086F09C /* test4.wav */; };
+		7E1009A71C5D4F390086F09C /* test5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009A11C5D4F390086F09C /* test5.wav */; };
+		7E1009A81C5D4F390086F09C /* test6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009A21C5D4F390086F09C /* test6.wav */; };
+		7E1009C81C5D5B280086F09C /* beat01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009A91C5D5B280086F09C /* beat01.wav */; };
+		7E1009C91C5D5B280086F09C /* beat02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009AA1C5D5B280086F09C /* beat02.wav */; };
+		7E1009CA1C5D5B280086F09C /* beat03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009AB1C5D5B280086F09C /* beat03.wav */; };
+		7E1009CB1C5D5B280086F09C /* beat04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009AC1C5D5B280086F09C /* beat04.wav */; };
+		7E1009CC1C5D5B280086F09C /* beat05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009AD1C5D5B280086F09C /* beat05.wav */; };
+		7E1009CD1C5D5B280086F09C /* beat06.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009AE1C5D5B280086F09C /* beat06.wav */; };
+		7E1009CE1C5D5B280086F09C /* beat07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009AF1C5D5B280086F09C /* beat07.wav */; };
+		7E1009CF1C5D5B280086F09C /* beat08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B01C5D5B280086F09C /* beat08.wav */; };
+		7E1009D01C5D5B280086F09C /* beat09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B11C5D5B280086F09C /* beat09.wav */; };
+		7E1009D11C5D5B280086F09C /* beat10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B21C5D5B280086F09C /* beat10.wav */; };
+		7E1009D21C5D5B280086F09C /* beat11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B31C5D5B280086F09C /* beat11.wav */; };
+		7E1009D31C5D5B280086F09C /* beat12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B41C5D5B280086F09C /* beat12.wav */; };
+		7E1009D41C5D5B280086F09C /* sfx01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B51C5D5B280086F09C /* sfx01.wav */; };
+		7E1009D51C5D5B280086F09C /* sfx02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B61C5D5B280086F09C /* sfx02.wav */; };
+		7E1009D61C5D5B280086F09C /* sfx03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B71C5D5B280086F09C /* sfx03.wav */; };
+		7E1009D71C5D5B280086F09C /* sfx04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B81C5D5B280086F09C /* sfx04.wav */; };
+		7E1009D81C5D5B280086F09C /* sfx05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009B91C5D5B280086F09C /* sfx05.wav */; };
+		7E1009D91C5D5B280086F09C /* sfx06.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009BA1C5D5B280086F09C /* sfx06.wav */; };
+		7E1009DA1C5D5B280086F09C /* sfx07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009BB1C5D5B280086F09C /* sfx07.wav */; };
+		7E1009DB1C5D5B280086F09C /* sfx08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009BC1C5D5B280086F09C /* sfx08.wav */; };
+		7E1009DC1C5D5B280086F09C /* sfx09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009BD1C5D5B280086F09C /* sfx09.wav */; };
+		7E1009DD1C5D5B280086F09C /* sfx10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009BE1C5D5B280086F09C /* sfx10.wav */; };
+		7E1009DE1C5D5B280086F09C /* sfx11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009BF1C5D5B280086F09C /* sfx11.wav */; };
+		7E1009DF1C5D5B280086F09C /* sfx12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009C01C5D5B280086F09C /* sfx12.wav */; };
+		7E1009E01C5D5B280086F09C /* sfx13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009C11C5D5B280086F09C /* sfx13.wav */; };
+		7E1009E11C5D5B280086F09C /* sfx14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009C21C5D5B280086F09C /* sfx14.wav */; };
+		7E1009E21C5D5B280086F09C /* sfx15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009C31C5D5B280086F09C /* sfx15.wav */; };
+		7E1009E31C5D5B280086F09C /* sfx16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009C41C5D5B280086F09C /* sfx16.wav */; };
+		7E1009E41C5D5B280086F09C /* sfx17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009C51C5D5B280086F09C /* sfx17.wav */; };
+		7E1009E51C5D5B280086F09C /* sfx18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009C61C5D5B280086F09C /* sfx18.wav */; };
+		7E1009E61C5D5B280086F09C /* sfx19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1009C71C5D5B280086F09C /* sfx19.wav */; };
+		7EBBF2FE1C5C20F100C9BF99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBBF2FD1C5C20F100C9BF99 /* AppDelegate.swift */; };
+		7EBBF3001C5C20F100C9BF99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBBF2FF1C5C20F100C9BF99 /* ViewController.swift */; };
+		7EBBF3031C5C20F100C9BF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBBF3011C5C20F100C9BF99 /* Main.storyboard */; };
+		7EBBF3051C5C20F100C9BF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBBF3041C5C20F100C9BF99 /* Assets.xcassets */; };
+		7EBBF3081C5C20F100C9BF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBBF3061C5C20F100C9BF99 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E10099D1C5D4F390086F09C /* test1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test1.wav; sourceTree = "<group>"; };
+		7E10099E1C5D4F390086F09C /* test2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test2.wav; sourceTree = "<group>"; };
+		7E10099F1C5D4F390086F09C /* test3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test3.wav; sourceTree = "<group>"; };
+		7E1009A01C5D4F390086F09C /* test4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test4.wav; sourceTree = "<group>"; };
+		7E1009A11C5D4F390086F09C /* test5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test5.wav; sourceTree = "<group>"; };
+		7E1009A21C5D4F390086F09C /* test6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test6.wav; sourceTree = "<group>"; };
+		7E1009A91C5D5B280086F09C /* beat01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat01.wav; sourceTree = "<group>"; };
+		7E1009AA1C5D5B280086F09C /* beat02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat02.wav; sourceTree = "<group>"; };
+		7E1009AB1C5D5B280086F09C /* beat03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat03.wav; sourceTree = "<group>"; };
+		7E1009AC1C5D5B280086F09C /* beat04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat04.wav; sourceTree = "<group>"; };
+		7E1009AD1C5D5B280086F09C /* beat05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat05.wav; sourceTree = "<group>"; };
+		7E1009AE1C5D5B280086F09C /* beat06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat06.wav; sourceTree = "<group>"; };
+		7E1009AF1C5D5B280086F09C /* beat07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat07.wav; sourceTree = "<group>"; };
+		7E1009B01C5D5B280086F09C /* beat08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat08.wav; sourceTree = "<group>"; };
+		7E1009B11C5D5B280086F09C /* beat09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat09.wav; sourceTree = "<group>"; };
+		7E1009B21C5D5B280086F09C /* beat10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat10.wav; sourceTree = "<group>"; };
+		7E1009B31C5D5B280086F09C /* beat11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat11.wav; sourceTree = "<group>"; };
+		7E1009B41C5D5B280086F09C /* beat12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat12.wav; sourceTree = "<group>"; };
+		7E1009B51C5D5B280086F09C /* sfx01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx01.wav; sourceTree = "<group>"; };
+		7E1009B61C5D5B280086F09C /* sfx02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx02.wav; sourceTree = "<group>"; };
+		7E1009B71C5D5B280086F09C /* sfx03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx03.wav; sourceTree = "<group>"; };
+		7E1009B81C5D5B280086F09C /* sfx04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx04.wav; sourceTree = "<group>"; };
+		7E1009B91C5D5B280086F09C /* sfx05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx05.wav; sourceTree = "<group>"; };
+		7E1009BA1C5D5B280086F09C /* sfx06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx06.wav; sourceTree = "<group>"; };
+		7E1009BB1C5D5B280086F09C /* sfx07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx07.wav; sourceTree = "<group>"; };
+		7E1009BC1C5D5B280086F09C /* sfx08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx08.wav; sourceTree = "<group>"; };
+		7E1009BD1C5D5B280086F09C /* sfx09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx09.wav; sourceTree = "<group>"; };
+		7E1009BE1C5D5B280086F09C /* sfx10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx10.wav; sourceTree = "<group>"; };
+		7E1009BF1C5D5B280086F09C /* sfx11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx11.wav; sourceTree = "<group>"; };
+		7E1009C01C5D5B280086F09C /* sfx12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx12.wav; sourceTree = "<group>"; };
+		7E1009C11C5D5B280086F09C /* sfx13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx13.wav; sourceTree = "<group>"; };
+		7E1009C21C5D5B280086F09C /* sfx14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx14.wav; sourceTree = "<group>"; };
+		7E1009C31C5D5B280086F09C /* sfx15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx15.wav; sourceTree = "<group>"; };
+		7E1009C41C5D5B280086F09C /* sfx16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx16.wav; sourceTree = "<group>"; };
+		7E1009C51C5D5B280086F09C /* sfx17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx17.wav; sourceTree = "<group>"; };
+		7E1009C61C5D5B280086F09C /* sfx18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx18.wav; sourceTree = "<group>"; };
+		7E1009C71C5D5B280086F09C /* sfx19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfx19.wav; sourceTree = "<group>"; };
+		7EBBF2FA1C5C20F100C9BF99 /* Swipes and Shakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipes and Shakes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBBF2FD1C5C20F100C9BF99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EBBF2FF1C5C20F100C9BF99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EBBF3021C5C20F100C9BF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EBBF3041C5C20F100C9BF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EBBF3071C5C20F100C9BF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EBBF3091C5C20F100C9BF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EBBF2F71C5C20F100C9BF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EBBF2F11C5C20F100C9BF99 = {
+			isa = PBXGroup;
+			children = (
+				7E1009A91C5D5B280086F09C /* beat01.wav */,
+				7E1009AA1C5D5B280086F09C /* beat02.wav */,
+				7E1009AB1C5D5B280086F09C /* beat03.wav */,
+				7E1009AC1C5D5B280086F09C /* beat04.wav */,
+				7E1009AD1C5D5B280086F09C /* beat05.wav */,
+				7E1009AE1C5D5B280086F09C /* beat06.wav */,
+				7E1009AF1C5D5B280086F09C /* beat07.wav */,
+				7E1009B01C5D5B280086F09C /* beat08.wav */,
+				7E1009B11C5D5B280086F09C /* beat09.wav */,
+				7E1009B21C5D5B280086F09C /* beat10.wav */,
+				7E1009B31C5D5B280086F09C /* beat11.wav */,
+				7E1009B41C5D5B280086F09C /* beat12.wav */,
+				7E1009B51C5D5B280086F09C /* sfx01.wav */,
+				7E1009B61C5D5B280086F09C /* sfx02.wav */,
+				7E1009B71C5D5B280086F09C /* sfx03.wav */,
+				7E1009B81C5D5B280086F09C /* sfx04.wav */,
+				7E1009B91C5D5B280086F09C /* sfx05.wav */,
+				7E1009BA1C5D5B280086F09C /* sfx06.wav */,
+				7E1009BB1C5D5B280086F09C /* sfx07.wav */,
+				7E1009BC1C5D5B280086F09C /* sfx08.wav */,
+				7E1009BD1C5D5B280086F09C /* sfx09.wav */,
+				7E1009BE1C5D5B280086F09C /* sfx10.wav */,
+				7E1009BF1C5D5B280086F09C /* sfx11.wav */,
+				7E1009C01C5D5B280086F09C /* sfx12.wav */,
+				7E1009C11C5D5B280086F09C /* sfx13.wav */,
+				7E1009C21C5D5B280086F09C /* sfx14.wav */,
+				7E1009C31C5D5B280086F09C /* sfx15.wav */,
+				7E1009C41C5D5B280086F09C /* sfx16.wav */,
+				7E1009C51C5D5B280086F09C /* sfx17.wav */,
+				7E1009C61C5D5B280086F09C /* sfx18.wav */,
+				7E1009C71C5D5B280086F09C /* sfx19.wav */,
+				7E10099D1C5D4F390086F09C /* test1.wav */,
+				7E10099E1C5D4F390086F09C /* test2.wav */,
+				7E10099F1C5D4F390086F09C /* test3.wav */,
+				7E1009A01C5D4F390086F09C /* test4.wav */,
+				7E1009A11C5D4F390086F09C /* test5.wav */,
+				7E1009A21C5D4F390086F09C /* test6.wav */,
+				7EBBF2FC1C5C20F100C9BF99 /* Swipes and Shakes */,
+				7EBBF2FB1C5C20F100C9BF99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EBBF2FB1C5C20F100C9BF99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EBBF2FA1C5C20F100C9BF99 /* Swipes and Shakes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EBBF2FC1C5C20F100C9BF99 /* Swipes and Shakes */ = {
+			isa = PBXGroup;
+			children = (
+				7EBBF2FD1C5C20F100C9BF99 /* AppDelegate.swift */,
+				7EBBF2FF1C5C20F100C9BF99 /* ViewController.swift */,
+				7EBBF3011C5C20F100C9BF99 /* Main.storyboard */,
+				7EBBF3041C5C20F100C9BF99 /* Assets.xcassets */,
+				7EBBF3061C5C20F100C9BF99 /* LaunchScreen.storyboard */,
+				7EBBF3091C5C20F100C9BF99 /* Info.plist */,
+			);
+			path = "Swipes and Shakes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EBBF2F91C5C20F100C9BF99 /* Swipes and Shakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBBF30C1C5C20F100C9BF99 /* Build configuration list for PBXNativeTarget "Swipes and Shakes" */;
+			buildPhases = (
+				7EBBF2F61C5C20F100C9BF99 /* Sources */,
+				7EBBF2F71C5C20F100C9BF99 /* Frameworks */,
+				7EBBF2F81C5C20F100C9BF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swipes and Shakes";
+			productName = "Swipes and Shakes";
+			productReference = 7EBBF2FA1C5C20F100C9BF99 /* Swipes and Shakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EBBF2F21C5C20F100C9BF99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = spacemonkey;
+				TargetAttributes = {
+					7EBBF2F91C5C20F100C9BF99 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 56HWC5ZWKG;
+					};
+				};
+			};
+			buildConfigurationList = 7EBBF2F51C5C20F100C9BF99 /* Build configuration list for PBXProject "Swipes and Shakes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EBBF2F11C5C20F100C9BF99;
+			productRefGroup = 7EBBF2FB1C5C20F100C9BF99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EBBF2F91C5C20F100C9BF99 /* Swipes and Shakes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EBBF2F81C5C20F100C9BF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1009D11C5D5B280086F09C /* beat10.wav in Resources */,
+				7E1009E11C5D5B280086F09C /* sfx14.wav in Resources */,
+				7E1009DC1C5D5B280086F09C /* sfx09.wav in Resources */,
+				7E1009D71C5D5B280086F09C /* sfx04.wav in Resources */,
+				7E1009D61C5D5B280086F09C /* sfx03.wav in Resources */,
+				7E1009D41C5D5B280086F09C /* sfx01.wav in Resources */,
+				7E1009E41C5D5B280086F09C /* sfx17.wav in Resources */,
+				7E1009A71C5D4F390086F09C /* test5.wav in Resources */,
+				7E1009DA1C5D5B280086F09C /* sfx07.wav in Resources */,
+				7E1009D81C5D5B280086F09C /* sfx05.wav in Resources */,
+				7E1009E01C5D5B280086F09C /* sfx13.wav in Resources */,
+				7E1009A81C5D4F390086F09C /* test6.wav in Resources */,
+				7E1009A61C5D4F390086F09C /* test4.wav in Resources */,
+				7E1009D21C5D5B280086F09C /* beat11.wav in Resources */,
+				7E1009D31C5D5B280086F09C /* beat12.wav in Resources */,
+				7E1009A51C5D4F390086F09C /* test3.wav in Resources */,
+				7E1009E61C5D5B280086F09C /* sfx19.wav in Resources */,
+				7E1009CB1C5D5B280086F09C /* beat04.wav in Resources */,
+				7E1009E31C5D5B280086F09C /* sfx16.wav in Resources */,
+				7EBBF3081C5C20F100C9BF99 /* LaunchScreen.storyboard in Resources */,
+				7E1009A31C5D4F390086F09C /* test1.wav in Resources */,
+				7E1009DF1C5D5B280086F09C /* sfx12.wav in Resources */,
+				7E1009DD1C5D5B280086F09C /* sfx10.wav in Resources */,
+				7E1009CC1C5D5B280086F09C /* beat05.wav in Resources */,
+				7E1009A41C5D4F390086F09C /* test2.wav in Resources */,
+				7E1009D51C5D5B280086F09C /* sfx02.wav in Resources */,
+				7E1009D01C5D5B280086F09C /* beat09.wav in Resources */,
+				7E1009CE1C5D5B280086F09C /* beat07.wav in Resources */,
+				7E1009D91C5D5B280086F09C /* sfx06.wav in Resources */,
+				7E1009CD1C5D5B280086F09C /* beat06.wav in Resources */,
+				7E1009DE1C5D5B280086F09C /* sfx11.wav in Resources */,
+				7E1009E21C5D5B280086F09C /* sfx15.wav in Resources */,
+				7E1009DB1C5D5B280086F09C /* sfx08.wav in Resources */,
+				7EBBF3051C5C20F100C9BF99 /* Assets.xcassets in Resources */,
+				7EBBF3031C5C20F100C9BF99 /* Main.storyboard in Resources */,
+				7E1009CA1C5D5B280086F09C /* beat03.wav in Resources */,
+				7E1009CF1C5D5B280086F09C /* beat08.wav in Resources */,
+				7E1009C91C5D5B280086F09C /* beat02.wav in Resources */,
+				7E1009E51C5D5B280086F09C /* sfx18.wav in Resources */,
+				7E1009C81C5D5B280086F09C /* beat01.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EBBF2F61C5C20F100C9BF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBBF3001C5C20F100C9BF99 /* ViewController.swift in Sources */,
+				7EBBF2FE1C5C20F100C9BF99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EBBF3011C5C20F100C9BF99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBBF3021C5C20F100C9BF99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EBBF3061C5C20F100C9BF99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBBF3071C5C20F100C9BF99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EBBF30A1C5C20F100C9BF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EBBF30B1C5C20F100C9BF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EBBF30D1C5C20F100C9BF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swipes and Shakes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spacemonkey.Swipes-and-Shakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EBBF30E1C5C20F100C9BF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swipes and Shakes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spacemonkey.Swipes-and-Shakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EBBF2F51C5C20F100C9BF99 /* Build configuration list for PBXProject "Swipes and Shakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBBF30A1C5C20F100C9BF99 /* Debug */,
+				7EBBF30B1C5C20F100C9BF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBBF30C1C5C20F100C9BF99 /* Build configuration list for PBXNativeTarget "Swipes and Shakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBBF30D1C5C20F100C9BF99 /* Debug */,
+				7EBBF30E1C5C20F100C9BF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EBBF2F21C5C20F100C9BF99 /* Project object */;
+}
